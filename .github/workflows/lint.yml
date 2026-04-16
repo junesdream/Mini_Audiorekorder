@@ -1,0 +1,16 @@
+name: Python Lint Check
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13'
+    - name: Install linter
+      run: pip install flake8
+    - name: Check Style (PEP8)
+      run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+      

@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS (Mac)
+.DS_Store
+
+# Logs
+*.log
+
+# Generated audio files
+*.mp3
+
+# IDE (PyCharm)
+.idea/
