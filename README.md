@@ -1,8 +1,7 @@
 # 🎧 ESA1 Audio Recorder
 
 A CLI-based audio recorder for capturing live MP3 streams from the internet.
-
-![CI Status](https://github.com/junesdream/esa1-audio-recorder/actions/workflows/main.yml/badge.svg)
+![CI Status](https://github.com/junesdream/Mini_Audiorekorder/actions/workflows/lint.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
